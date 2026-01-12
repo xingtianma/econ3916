@@ -1,4 +1,4 @@
-## 🌍 Global Purchasing Power Parity Analysis via the Big Mac Index
+\## 🌍 Global Purchasing Power Parity Analysis via the Big Mac Index
 
 ### Objective
 This project evaluates the **Law of One Price** by using the Big Mac Index as an informal measure of **Purchasing Power Parity (PPP)**, assessing whether identical goods cost the same across countries once prices are expressed in a common currency.
