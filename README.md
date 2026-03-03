@@ -47,8 +47,16 @@ Each folder represents a step in this learning process, combining theory, implem
 
 ---
 
+### **Return-Aware Experimentation vs. The Academic Standard**
+
+* **The Concept:** At companies like Netflix, **Return-Aware Experimentation** treats the decision to launch a feature as a trade-off between the cost of a false positive and the potential business upside.
+* **The Difference:** While the academic standard of p < 0.05 is a rigid convention designed to prevent false discoveries in science, Netflix views the **p-value** as a tunable business parameter. 
+* **The Logic:** If a feature has a massive potential "return" and a low cost of implementation, a lower confidence threshold (e.g., p < 0.10 or 0.20) may be mathematically optimal to avoid the high "opportunity cost" of rejecting a winner.
+* **The Portfolio Note:** I understand that **Decision Thresholds** are not just scientific hurdles but strategic parameters; choosing a significance level is an act of balancing the risk of a "Type I" error (false alarm) against the "Type II" error (missed opportunity) based on specific business impact.
+
 ## 🚀 Looking Ahead
 
 This portfolio is a living project that will continue to grow as I deepen my understanding of statistical learning and its applications in economics. My goal is to develop models that are not only predictive, but also economically meaningful.
 
 Thank you for visiting!
+
