@@ -1,5 +1,3 @@
-**Important Rule:** Do NOT generate any Python code for me. I have already written the code.
-
 **What I did in this lab:**
 * Objective: Engineer structural features and impute missing values to prepare a chaotic dataset for econometric modeling.
 * The Data: messy_hr_economics.csv
