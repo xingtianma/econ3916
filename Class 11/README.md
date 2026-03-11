@@ -1,4 +1,3 @@
-"I need help writing a project description for my econometrics lab. 
 **Important Rule:** Do NOT generate any Python code for me. I have already written the code.
 
 **What I did in this lab:**
