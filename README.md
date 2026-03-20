@@ -54,6 +54,19 @@ Each folder represents a step in this learning process, combining theory, implem
 * **The Logic:** If a feature has a massive potential "return" and a low cost of implementation, a lower confidence threshold (e.g., p < 0.10 or 0.20) may be mathematically optimal to avoid the high "opportunity cost" of rejecting a winner.
 * **The Portfolio Note:** I understand that **Decision Thresholds** are not just scientific hurdles but strategic parameters; choosing a significance level is an act of balancing the risk of a "Type I" error (false alarm) against the "Type II" error (missed opportunity) based on specific business impact.
 
+# Macroeconomic Time-Series Analysis: Navigating Spurious Correlation
+
+**Objective:** To demonstrate and resolve common statistical traps—specifically spurious correlation and multicollinearity—in macroeconomic time-series data retrieved via the FRED API.
+
+**Tools & Technologies:** Python, pandas, seaborn, statsmodels, FRED API, DAGs.
+
+## Methodology
+
+* **Exploratory Data Analysis:** Ingested raw level data and visualized initial relationships using pandas and seaborn to highlight the illusion of high correlation in non-stationary variables.
+* **Statistical Diagnostics:** Applied Variance Inflation Factor (VIF) analysis using statsmodels to rigorously quantify multicollinearity and identify redundant variables.
+* **Data Transformation:** Transformed non-stationary raw data into Year-over-Year (YoY) growth rates to achieve stationarity and eliminate time-trend biases.
+* **Causal Mapping:** Utilized Directed Acyclic Graphs (DAGs) to move beyond simple correlation, mapping the true underlying structural and causal relationships between the macroeconomic indicators.
+
 ## 🚀 Looking Ahead
 
 This portfolio is a living project that will continue to grow as I deepen my understanding of statistical learning and its applications in economics. My goal is to develop models that are not only predictive, but also economically meaningful.
